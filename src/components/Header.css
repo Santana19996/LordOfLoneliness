@@ -1,0 +1,168 @@
+/* Header.css */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Old+Standard+TT:wght@400;700&display=swap");
+
+.gothic-header {
+    background-color: #121212; /* Dark background */
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 3px solid #8b0000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Glowing Crescent Moon */
+.crescent-moon {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 150px; /* Size of the crescent */
+    height: 150px;
+    background-color: #ff6347; /* Bright red color */
+    border-radius: 50%;
+    box-shadow:
+            0 0 20px #ff6347,
+            0 0 40px #8b0000,
+            0 0 60px #ff6347; /* Glowing effect */
+    z-index: 0;
+}
+
+.crescent-moon::before {
+    content: "";
+    position: absolute;
+    width: 150px; /* Same as the parent */
+    height: 150px;
+    background-color: #121212; /* Same as background */
+    border-radius: 50%;
+    top: -10px; /* Adjust position to "cut out" part of the moon */
+    left: 20px; /* Creates the crescent shape */
+}
+
+/* Randomly scattered spooky symbols */
+.gothic-header::before,
+.gothic-header::after,
+.symbol-1,
+.symbol-2,
+.symbol-3,
+.symbol-4,
+.symbol-5 {
+    content: "☾"; /* Default moon symbol */
+    font-family: "Cinzel", serif;
+    font-size: 4rem; /* Large size */
+    color: #8b0000;
+    position: absolute;
+    opacity: 0.8;
+    text-shadow:
+            0 0 10px #8b0000,
+            0 0 20px #ff6347;
+    pointer-events: none;
+}
+
+.gothic-header::before {
+    content: "☠"; /* Skull */
+    top: 10%;
+    left: 5%;
+    font-size: 3.5rem;
+    transform: rotate(-15deg);
+}
+
+.gothic-header::after {
+    content: "✝"; /* Cross */
+    bottom: 15%;
+    right: 10%;
+    font-size: 4.5rem;
+    transform: rotate(25deg);
+}
+
+.symbol-1 {
+    top: 5%;
+    right: 20%;
+    font-size: 5rem;
+    transform: rotate(10deg);
+}
+
+.symbol-2 {
+    bottom: 5%;
+    left: 25%;
+    font-size: 3.5rem;
+    transform: rotate(-20deg);
+}
+
+.symbol-3 {
+    top: 15%;
+    left: 50%;
+    font-size: 4rem;
+    transform: rotate(-10deg);
+}
+
+.symbol-4 {
+    bottom: 20%;
+    right: 30%;
+    font-size: 4.5rem;
+    transform: rotate(15deg);
+}
+
+.symbol-5 {
+    top: 40%;
+    right: 5%;
+    font-size: 5rem;
+    transform: rotate(-25deg);
+}
+
+/* Profile Image */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #8b0000;
+    object-fit: cover;
+    box-shadow: 0 0 10px #ff6347, 0 0 20px #8b0000;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.1);
+    box-shadow:
+            0 0 20px #8b0000,
+            0 0 40px #ff6347,
+            0 0 60px #8b0000;
+}
+
+.header-title {
+    font-family: "Cinzel", serif;
+    font-size: 2.5rem;
+    color: #ff6347;
+    text-shadow: 0 0 10px #ff6347, 0 0 20px #8b0000;
+    margin: 10px 0;
+    letter-spacing: 2px;
+}
+
+.header-subtitle {
+    font-family: "Old Standard TT", serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #c0c0c0;
+    margin-top: 10px;
+    text-shadow:
+            0 0 5px #8b0000,
+            0 0 10px #ff6347;
+    letter-spacing: 1px;
+}
+
+.header-subtitle strong {
+    color: #ff6347;
+    text-shadow:
+            0 0 5px #ff6347,
+            0 0 10px #8b0000;
+}
