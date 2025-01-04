@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/LordOfLoneliness/static/css/main.f34441b8.css",
-    "main.js": "/LordOfLoneliness/static/js/main.1670bacd.js",
+    "main.js": "/LordOfLoneliness/static/js/main.d4b3ffa9.js",
     "static/js/453.251109c8.chunk.js": "/LordOfLoneliness/static/js/453.251109c8.chunk.js",
     "index.html": "/LordOfLoneliness/index.html",
     "main.f34441b8.css.map": "/LordOfLoneliness/static/css/main.f34441b8.css.map",
-    "main.1670bacd.js.map": "/LordOfLoneliness/static/js/main.1670bacd.js.map",
+    "main.d4b3ffa9.js.map": "/LordOfLoneliness/static/js/main.d4b3ffa9.js.map",
     "453.251109c8.chunk.js.map": "/LordOfLoneliness/static/js/453.251109c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f34441b8.css",
-    "static/js/main.1670bacd.js"
+    "static/js/main.d4b3ffa9.js"
   ]
 }
