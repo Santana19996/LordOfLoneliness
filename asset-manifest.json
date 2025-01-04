@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Santana19996/LordOfLoneliness/static/css/main.f34441b8.css",
-    "main.js": "/Santana19996/LordOfLoneliness/static/js/main.e893b70c.js",
-    "static/js/453.251109c8.chunk.js": "/Santana19996/LordOfLoneliness/static/js/453.251109c8.chunk.js",
-    "index.html": "/Santana19996/LordOfLoneliness/index.html",
-    "main.f34441b8.css.map": "/Santana19996/LordOfLoneliness/static/css/main.f34441b8.css.map",
-    "main.e893b70c.js.map": "/Santana19996/LordOfLoneliness/static/js/main.e893b70c.js.map",
-    "453.251109c8.chunk.js.map": "/Santana19996/LordOfLoneliness/static/js/453.251109c8.chunk.js.map"
+    "main.css": "/LordOfLoneliness/static/css/main.f34441b8.css",
+    "main.js": "/LordOfLoneliness/static/js/main.1670bacd.js",
+    "static/js/453.251109c8.chunk.js": "/LordOfLoneliness/static/js/453.251109c8.chunk.js",
+    "index.html": "/LordOfLoneliness/index.html",
+    "main.f34441b8.css.map": "/LordOfLoneliness/static/css/main.f34441b8.css.map",
+    "main.1670bacd.js.map": "/LordOfLoneliness/static/js/main.1670bacd.js.map",
+    "453.251109c8.chunk.js.map": "/LordOfLoneliness/static/js/453.251109c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f34441b8.css",
-    "static/js/main.e893b70c.js"
+    "static/js/main.1670bacd.js"
   ]
 }
